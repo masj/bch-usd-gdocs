@@ -1,12 +1,11 @@
 
-// A macro for google docs that will help you get BTC exchange rates into your excel sheets
+// A macro for google docs that will help you get BCH exchange rates into your excel sheets
 // How to Use:
 // 1. Create a new google spreadsheet
 // 2. Go to Tools -> Script Editor
 // 3. Delete everything in the edit window and replace with the code of this file
 // 4. Click on the Save button (floppy disk icon)
 // 5. Go back to your document and fetch the rate using: =fetchTicker("coinmarketcap")
-// 6. You can replace "bitfloor" with "mtgox" or "bitpay" for the rate you want (you can also get all 3 rates in the same document)
 
 
 function getBalance(btcAddress) {
